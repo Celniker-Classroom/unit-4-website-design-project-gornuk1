@@ -3,7 +3,8 @@ body{
     margin: 0px;
 }
 main{
-    margin: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 h1{
     text-align: center;
@@ -16,7 +17,7 @@ h1{
     overflow: hidden;
 }
 .navbar a{
-    color: black;
+    color: green;
     text-decoration: none;
     padding: 15px;
     display: block;
@@ -26,5 +27,5 @@ h1{
     background-color: hsl(0, 0%,10%)
 }
 .navbar li{
-
+float: left;
 }
