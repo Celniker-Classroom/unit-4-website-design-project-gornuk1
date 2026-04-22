@@ -69,6 +69,43 @@ th {
     background-color: lightblue;
 }
 
+.clearfix{
+    clear: both;
+}
+
+.section-box{
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.inline-demo{
+    display: inline;
+    background-color: lightyellow;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.block-demo{
+    display: block;
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.inline-block-demo{
+    display: inline-block;
+    background-color: lightpink;
+    border: 1px solid black;
+    padding: 10px;
+    width: 120px;
+    margin: 5px;
+}
+
 button, .btn, .buttonload {
     background-color: white;
     color: black;

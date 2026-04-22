@@ -13,3 +13,11 @@ function myFunction() {
     x.style.display = "none";
   }
 }
+
+function changeBioText() {
+  const bioMessage = document.getElementById("bioMessage");
+  if (bioMessage) {
+    bioMessage.textContent = "poop";
+  }
+}
+

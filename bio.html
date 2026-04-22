@@ -10,13 +10,28 @@
 <body>
     <h1>All About Me: Bio Page</h1>
 
-<p>The person who created this website is Michael Aparin, the coolest guy around and is super awesome.</p>
+     <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home Page</a></li>
+        <li><a href="bio.html">Bio Page</a></li>
+        <li><a href="funfacts.html">Fun Facts Page</a></li>
+        <li><a href="joke.html">Satirical Page</a></li>
+      </ul>
+    </nav>
 
-<button class="btn dark">Toggle Dark Mode</button>
+    <div class="clearfix"></div>
 
-<p>Michael Aparin lives with his parents and twin brothers. Not only does he enjoy to draw, but he loves to hang out with friends and come up with silly ideas. One of which, being a satirical website making fun of autobiographal websites.</p>
-
-
+    <main>
+        <div class="section-box">
+            <p>The person who created this website is Michael Aparin, the coolest guy around and is super awesome.</p>
+            
+            <button class="btn dark">Toggle Dark Mode</button>
+            
+            <p>Michael Aparin lives with his parents and twin brothers. Not only does he enjoy to draw, but he loves to hang out with friends and come up with silly ideas. One of which, being a satirical website making fun of autobiographal websites.</p>
+            
+            <button onclick="changeBioText()">Reveal Important Information</button>
+            
+            <p id="bioMessage" class="highlight-box">dude look at this awesome text</p>
 </body>
 </html>
 
